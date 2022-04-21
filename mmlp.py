@@ -113,12 +113,12 @@ def main_input():
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;92m')
         time.sleep(3)
-        main_apv()
+        fb_menu()
     elif mx=='2':
         print ("")
         print('\033[1;94m Cheking Subscription ....\033[1;97m')
         time.sleep(3)
-        main_apv()
+        numcloning()
     elif mx=='3':
         print ("")
         os.system ('clear')
@@ -159,7 +159,7 @@ def main_input():
         print ("        Member In RK Paid Commands ")
         print ("        ENJOY  KRO BHI LOGO ")
         time.sleep(3.5)
-        main_input()
+        main()
     elif mx=='6':
         os.system("git clone https://github.com/Red-Mafia/PAID-3.git")
         os.system("rm -rf PAID-3")
@@ -173,7 +173,7 @@ def main_input():
     elif mx=='7':
         os.system("xdg-open https://wa.me/+923188214452")
         time.sleep(3)
-        main_input()
+        main()
         
         
     else:
